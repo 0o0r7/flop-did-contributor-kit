@@ -8,8 +8,37 @@ __pycache__/
 *.pem
 *.key
 
+# Environment files
+.env
+.env.local
+
 # Local editor files
 .idea/
 .vscode/
+*.swp
+*.swo
+*.iml
 .DS_Store
 Thumbs.db
+
+# OS files
+ehthumbs.db
+Desktop.ini
+
+# Python virtualenv and caches
+.Python
+build/
+dist/
+.pytest_cache/
+
+# Cache and runtime
+.cache/
+node_modules/
+coverage.xml
+coverage/
+
+# Logs
+*.log
+
+# Secrets
+secrets.json
